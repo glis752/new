@@ -1,0 +1,103 @@
+body{
+	font-family: Arial, helvetica. sans-serif;
+	background-color: white;
+}
+
+.menu{
+	list-style: none;
+	padding: 10px; 
+	background-color: orange;
+	width: 80%;
+	max-width: 1000px;
+	margin: auto;
+	text-align: center;
+}
+
+.menu li a{
+	text-decoration: none;
+	color: black;
+	padding: 25px;
+	display: block;
+}
+
+.menu li{
+	display: inline-block;
+	text-align: center;
+}
+
+.menu li a:hover{
+	background-color: white;
+	border-radius: 10px;
+}
+
+.menu:active{
+	background-color: turquoise;
+}
+
+h3{
+	font-family: comic Sans MS, serif;
+	color:grey;
+}
+h2{
+	font-family: alanis hand, serif;
+	color: black;
+}
+h1{
+	/*alineacion al centro del texto h1*/
+	text-align: center;
+	/*color de texto h1*/
+    /*color: blue;*/
+    /*aplica sombra al texto se especifica la sombra horizontal y vertical*/
+    /*aplica efecto de desenfoque a la sombra y un color*/
+    text-shadow: 1px 2px black, 0 0 25px blue, 0 0 5px blue;
+}
+div.galeria{
+	transform: translateX(20%);
+	/* aplica margen a imagen*/
+	margin: 10px 20px;
+	/* aplica formato a la caja contenedora con la clase galeria*/
+	box-shadow: 0 4px 8px 0 green, 0 6px 20px 0 white;
+	/* flota o ubica a la imagen a la izquieda*/ 
+	float: left;
+	/* aplica un ancho a la imagen de tamaño 350 pixeles*/
+	width: 380px;
+}
+
+    /*aplica a la caja contenedora foto formato*/
+    div.fotos{
+
+    	/* aplica un ancho*/
+    	width: 300px;
+    	  /* aplica un alto*/
+    	height: auto;
+      }
+
+      /* aplica formato a la caja contenedora con la ETIQUETA FOTOS*/
+    div.fotos:hover{
+
+    	border: 3px color:coral;
+    	  /* con la propiedad TRANSFOM rotar, transformar, inclinar, sesgar, etc*/
+    	   /* ROTA LA IMAGEN AL CONTRARIO DE LAS MANECIAS DEL RELOJ*/
+    	   transform: rotate(-6deg);
+}
+
+    /* aplica formato a la caja contenedora con la classe PIE*/
+  div.pie{
+  	     font-size: 14px;
+  	     font-family:arial black;
+  	     /* alinea el texto al centro*/
+  	     text-align: center;
+  	       /* aplica formato SOMBRA AL TEXTO*/
+  	       text-shadow: 2px 2px 5px purple;
+  	       /* alica formato espacio*/ 
+  	       padding: 10px;
+}
+h1{
+	/*alineacion al centro del texto h1*/
+	text-align: center;
+	/*color de texto h1*/
+	color: pink;
+	/* aplica sombra al texto se especifica la sombra horizontal y vertical*/
+	/* aplica efecto de desenfoque a la sombra y un color*/ 
+	text-shadow: 1px 2px black, 0 0 25px blue, 0 0 5px blue;
+}
